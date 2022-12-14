@@ -1,0 +1,1 @@
+while read requirement; do pip3 install $requirement; done < requirement.txt
